@@ -1,0 +1,1568 @@
+[
+ {
+   "Ingredient": "salt",
+   "Quantity": "750",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Condiments",
+   "Cost": 1,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "black pepper",
+   "Quantity": "45",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Powdered",
+   "Cost": 1,
+   "Cost Per Unit": "0.022"
+ },
+ {
+   "Ingredient": "olive oil",
+   "Quantity": "1000",
+   "Unit": "ml",
+   "Excel Category": "staple",
+   "Type": "Oils",
+   "Cost": 3.6,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "vegetable oil",
+   "Quantity": "1000",
+   "Unit": "ml",
+   "Excel Category": "staple",
+   "Type": "Oils",
+   "Cost": 1.3,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "plain flour",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Powdered",
+   "Cost": 0.55,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "caster sugar",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Powdered",
+   "Cost": 1.1,
+   "Cost Per Unit": "0.002"
+ },
+ {
+   "Ingredient": "light soy sauce",
+   "Quantity": "150",
+   "Unit": "ml",
+   "Excel Category": "staple",
+   "Type": "Condiments",
+   "Cost": 1,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "tomato pur√©e / tomato paste",
+   "Quantity": "140",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Condiments",
+   "Cost": 0.75,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "cider vinegar",
+   "Quantity": "500",
+   "Unit": "ml",
+   "Excel Category": "staple",
+   "Type": "Condiments",
+   "Cost": 1.15,
+   "Cost Per Unit": "0.002"
+ },
+ {
+   "Ingredient": "Dijon mustard",
+   "Quantity": "100",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Condiments",
+   "Cost": 0.85,
+   "Cost Per Unit": "0.009"
+ },
+ {
+   "Ingredient": "honey",
+   "Quantity": "340",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Condiments",
+   "Cost": 1.9,
+   "Cost Per Unit": "0.006"
+ },
+ {
+   "Ingredient": "mayonnaise",
+   "Quantity": "600",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Condiments",
+   "Cost": 2.25,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "basmati rice",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Grains",
+   "Cost": 1.15,
+   "Cost Per Unit": "0.002"
+ },
+ {
+   "Ingredient": "dried pasta",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Grains",
+   "Cost": 0.6,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "white wine",
+   "Quantity": "750",
+   "Unit": "ml",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 5,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "red wine",
+   "Quantity": "750",
+   "Unit": "ml",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 5,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "medium egg noodles",
+   "Quantity": "250",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Grains",
+   "Cost": 0.99,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "smoked paprika",
+   "Quantity": "44",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Spices",
+   "Cost": 1,
+   "Cost Per Unit": "0.023"
+ },
+ {
+   "Ingredient": "chilli flakes",
+   "Quantity": "44",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Spices",
+   "Cost": 1,
+   "Cost Per Unit": "0.023"
+ },
+ {
+   "Ingredient": "curry powder",
+   "Quantity": "80",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Spices",
+   "Cost": 1,
+   "Cost Per Unit": "0.013"
+ },
+ {
+   "Ingredient": "ground cumin",
+   "Quantity": "44",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Spices",
+   "Cost": 1,
+   "Cost Per Unit": "0.023"
+ },
+ {
+   "Ingredient": "dried oregano",
+   "Quantity": "44",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Spices",
+   "Cost": 1,
+   "Cost Per Unit": "0.023"
+ },
+ {
+   "Ingredient": "frozen peas",
+   "Quantity": "375",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Fruit + Veg",
+   "Cost": 1.3,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "chicken wing(s)",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 1.65,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "beef mince",
+   "Quantity": "250",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 2.2,
+   "Cost Per Unit": "0.009"
+ },
+ {
+   "Ingredient": "pork fillet",
+   "Quantity": "350",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 2.5,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "stir fry pork strips",
+   "Quantity": "300",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 1.55,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "chorizo",
+   "Quantity": "225",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 2.5,
+   "Cost Per Unit": "0.011"
+ },
+ {
+   "Ingredient": "lamb neck fillet",
+   "Quantity": "300",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 4.5,
+   "Cost Per Unit": "0.015"
+ },
+ {
+   "Ingredient": "cooked king prawns",
+   "Quantity": "150",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 2.75,
+   "Cost Per Unit": "0.018"
+ },
+ {
+   "Ingredient": "mozzarella ball(s)",
+   "Quantity": "150",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 0.65,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "mini mozzarella ball(s)",
+   "Quantity": "150",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 0.65,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "balsamic vinegar",
+   "Quantity": "250",
+   "Unit": "ml",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1.6,
+   "Cost Per Unit": "0.006"
+ },
+ {
+   "Ingredient": "halloumi",
+   "Quantity": "225",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 2.05,
+   "Cost Per Unit": "0.009"
+ },
+ {
+   "Ingredient": "feta",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 1.4,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "sour cream",
+   "Quantity": "150",
+   "Unit": "ml",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 0.7,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "natural yoghurt",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 0.6,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "Thai curry paste",
+   "Quantity": "190",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1.2,
+   "Cost Per Unit": "0.006"
+ },
+ {
+   "Ingredient": "butter",
+   "Quantity": "250",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Dairy",
+   "Cost": 1.65,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "sugar snap peas",
+   "Quantity": "150",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "Tenderstem broccoli",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.5,
+   "Cost Per Unit": "0.008"
+ },
+ {
+   "Ingredient": "Fresh spinach",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.5,
+   "Cost Per Unit": "0.008"
+ },
+ {
+   "Ingredient": "echalion shallot(s)",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "Fresh ginger",
+   "Quantity": "100",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Fruit + Veg",
+   "Cost": 0.46,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "new potatoes",
+   "Quantity": "750",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "loose white potatoes",
+   "Quantity": "1",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 0.0008,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "chestnut mushrooms",
+   "Quantity": "250",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "wild mushrooms",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.8,
+   "Cost Per Unit": "0.009"
+ },
+ {
+   "Ingredient": "white mushrooms",
+   "Quantity": "300",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 0.95,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "shiitake mushrooms",
+   "Quantity": "120",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.35,
+   "Cost Per Unit": "0.011"
+ },
+ {
+   "Ingredient": "asparagus",
+   "Quantity": "250",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.75,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "plum tomato(es)",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.2,
+   "Cost Per Unit": "0.002"
+ },
+ {
+   "Ingredient": "sushi rice",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Grains",
+   "Cost": 2,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "extra firm tofu",
+   "Quantity": "280",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 2,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "tinned chickpeas",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Tins + Jars",
+   "Cost": 0.6,
+   "Cost Per Unit": "0.002"
+ },
+ {
+   "Ingredient": "tinned butter beans",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Tins + Jars",
+   "Cost": 0.55,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "tinned crabmeat",
+   "Quantity": "170",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 2.7,
+   "Cost Per Unit": "0.016"
+ },
+ {
+   "Ingredient": "tinned apricot halves",
+   "Quantity": "410",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Tins + Jars",
+   "Cost": 0.65,
+   "Cost Per Unit": "0.002"
+ },
+ {
+   "Ingredient": "coconut milk",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Tins + Jars",
+   "Cost": 1.45,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "roasted peanuts",
+   "Quantity": "250",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 2.3,
+   "Cost Per Unit": "0.009"
+ },
+ {
+   "Ingredient": "sesame oil",
+   "Quantity": "250",
+   "Unit": "ml",
+   "Excel Category": "staple",
+   "Type": "Oils",
+   "Cost": 1.9,
+   "Cost Per Unit": "0.008"
+ },
+ {
+   "Ingredient": "arborio rice",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Grains",
+   "Cost": 1.25,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "peanut butter",
+   "Quantity": "454",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Nuts",
+   "Cost": 3.45,
+   "Cost Per Unit": "0.008"
+ },
+ {
+   "Ingredient": "almonds",
+   "Quantity": "100",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Nuts",
+   "Cost": 1.25,
+   "Cost Per Unit": "0.013"
+ },
+ {
+   "Ingredient": "sun-dried tomatoes",
+   "Quantity": "280",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 2,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "capers",
+   "Quantity": "198",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Tins + Jars",
+   "Cost": 1.5,
+   "Cost Per Unit": "0.008"
+ },
+ {
+   "Ingredient": "dried lasagne sheets",
+   "Quantity": "375",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Grains",
+   "Cost": 0.98,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "tomato ketchup",
+   "Quantity": "570",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Condiments",
+   "Cost": 2,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "Fresh thyme",
+   "Quantity": "20",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 0.65,
+   "Cost Per Unit": "0.033"
+ },
+ {
+   "Ingredient": "vermicelli rice noodles",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Grains",
+   "Cost": 0.8,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "black olives",
+   "Quantity": "160",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Tins + Jars",
+   "Cost": 0.85,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "Fresh chives",
+   "Quantity": "20",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 0.7,
+   "Cost Per Unit": "0.035"
+ },
+ {
+   "Ingredient": "goat's cheese",
+   "Quantity": "125",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 1.8,
+   "Cost Per Unit": "0.014"
+ },
+ {
+   "Ingredient": "double / heavy cream",
+   "Quantity": "300",
+   "Unit": "ml",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 1.1,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "Fresh rosemary",
+   "Quantity": "20",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 0.75,
+   "Cost Per Unit": "0.038"
+ },
+ {
+   "Ingredient": "Fresh sage",
+   "Quantity": "20",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 0.75,
+   "Cost Per Unit": "0.038"
+ },
+ {
+   "Ingredient": "cavolo nero",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.4,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "Fresh dill",
+   "Quantity": "20",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 0.65,
+   "Cost Per Unit": "0.033"
+ },
+ {
+   "Ingredient": "mango chutney",
+   "Quantity": "340",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1.5,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "dried red lentils",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Grains",
+   "Cost": 1.15,
+   "Cost Per Unit": "0.002"
+ },
+ {
+   "Ingredient": "Fresh basil",
+   "Quantity": "30",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1,
+   "Cost Per Unit": "0.033"
+ },
+ {
+   "Ingredient": "mascarpone",
+   "Quantity": "250",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 1.65,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "brussels sprouts",
+   "Quantity": "365",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.99,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "cr√®me fra√Æche",
+   "Quantity": "300",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 1.15,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "pale ale",
+   "Quantity": "500",
+   "Unit": "ml",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1.5,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "frozen edamame beans",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 2,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "red beetroot",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.65,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "salad leaves",
+   "Quantity": "120",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.25,
+   "Cost Per Unit": "0.010"
+ },
+ {
+   "Ingredient": "bok choy",
+   "Quantity": "250",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.4,
+   "Cost Per Unit": "0.006"
+ },
+ {
+   "Ingredient": "hard Italian cheese",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 2.3,
+   "Cost Per Unit": "0.012"
+ },
+ {
+   "Ingredient": "milk",
+   "Quantity": "568",
+   "Unit": "ml",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 0.5,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "cream cheese",
+   "Quantity": "180",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 1.95,
+   "Cost Per Unit": "0.011"
+ },
+ {
+   "Ingredient": "buttermilk",
+   "Quantity": "300",
+   "Unit": "ml",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 0.8,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "sugarsnap peas",
+   "Quantity": "150",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "single cream",
+   "Quantity": "300",
+   "Unit": "ml",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 1,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "Cheddar",
+   "Quantity": "350",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 2.4,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "dried cranberries",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Powdered",
+   "Cost": 1.15,
+   "Cost Per Unit": "0.006"
+ },
+ {
+   "Ingredient": "ricotta",
+   "Quantity": "250",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 1.2,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "blackberries",
+   "Quantity": "150",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 2,
+   "Cost Per Unit": "0.013"
+ },
+ {
+   "Ingredient": "shallot(s)",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.5,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "Fresh tarragon",
+   "Quantity": "20",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 0.75,
+   "Cost Per Unit": "0.038"
+ },
+ {
+   "Ingredient": "Fresh figs",
+   "Quantity": "140",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 2,
+   "Cost Per Unit": "0.014"
+ },
+ {
+   "Ingredient": "raspberries",
+   "Quantity": "150",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 2,
+   "Cost Per Unit": "0.013"
+ },
+ {
+   "Ingredient": "strawberries",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 2,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "blueberries",
+   "Quantity": "150",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.25,
+   "Cost Per Unit": "0.008"
+ },
+ {
+   "Ingredient": "tinned sweetcorn",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 0.7,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "tinned bamboo shoots",
+   "Quantity": "225",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "Fresh apricots",
+   "Quantity": "320",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.5,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "raisins",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1.6,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "tinned black beans",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1.19,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "rhubarb",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 2.75,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "ready rolled puff pastry",
+   "Quantity": "320",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1.55,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "tinned kidney beans",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 0.3,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "coarse dried polenta",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Grains",
+   "Cost": 1.1,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "Fresh coriander / cilantro",
+   "Quantity": "30",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 0.75,
+   "Cost Per Unit": "0.025"
+ },
+ {
+   "Ingredient": "Fresh parsley",
+   "Quantity": "30",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 0.75,
+   "Cost Per Unit": "0.025"
+ },
+ {
+   "Ingredient": "rocket / arugula",
+   "Quantity": "60",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1,
+   "Cost Per Unit": "0.017"
+ },
+ {
+   "Ingredient": "couscous",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Grains",
+   "Cost": 0.7,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "water",
+   "Quantity": "-",
+   "Unit": "ml",
+   "Excel Category": "-",
+   "Type": "Condiments",
+   "Cost": 0,
+   "Cost Per Unit": "#VALUE!"
+ },
+ {
+   "Ingredient": "Fresh mint",
+   "Quantity": "30",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 0.75,
+   "Cost Per Unit": "0.025"
+ },
+ {
+   "Ingredient": "beef rump steak(s)",
+   "Quantity": "225",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 4,
+   "Cost Per Unit": "0.018"
+ },
+ {
+   "Ingredient": "watercress",
+   "Quantity": "80",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1,
+   "Cost Per Unit": "0.013"
+ },
+ {
+   "Ingredient": "tinned chopped tomatoes",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Condiments",
+   "Cost": 0.45,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "pine nuts",
+   "Quantity": "100",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Nuts",
+   "Cost": 3,
+   "Cost Per Unit": "0.030"
+ },
+ {
+   "Ingredient": "panko breadcrumbs",
+   "Quantity": "120",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Condiments",
+   "Cost": 1.5,
+   "Cost Per Unit": "0.013"
+ },
+ {
+   "Ingredient": "oyster mushrooms",
+   "Quantity": "125",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.35,
+   "Cost Per Unit": "0.011"
+ },
+ {
+   "Ingredient": "tinned pineapple",
+   "Quantity": "227",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 0.52,
+   "Cost Per Unit": "0.002"
+ },
+ {
+   "Ingredient": "almond flakes",
+   "Quantity": "100",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Nuts",
+   "Cost": 1.25,
+   "Cost Per Unit": "0.013"
+ },
+ {
+   "Ingredient": "cashew nuts",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Nuts",
+   "Cost": 2.3,
+   "Cost Per Unit": "0.012"
+ },
+ {
+   "Ingredient": "cherry tomatoes",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.25,
+   "Cost Per Unit": "0.006"
+ },
+ {
+   "Ingredient": "raw king prawns",
+   "Quantity": "150",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 3.13,
+   "Cost Per Unit": "0.021"
+ },
+ {
+   "Ingredient": "tinned jackfruit",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1.2,
+   "Cost Per Unit": "0.003"
+ },
+ {
+   "Ingredient": "tomato passata",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1,
+   "Cost Per Unit": "0.002"
+ },
+ {
+   "Ingredient": "prunes",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1.2,
+   "Cost Per Unit": "0.006"
+ },
+ {
+   "Ingredient": "tinned artichoke hearts",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 2.35,
+   "Cost Per Unit": "0.006"
+ },
+ {
+   "Ingredient": "ground allspice",
+   "Quantity": "40",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Spices",
+   "Cost": 1,
+   "Cost Per Unit": "0.025"
+ },
+ {
+   "Ingredient": "sliced ham",
+   "Quantity": "120",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 2.7,
+   "Cost Per Unit": "0.023"
+ },
+ {
+   "Ingredient": "button mushrooms",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 0.9,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "harissa paste",
+   "Quantity": "100",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1.95,
+   "Cost Per Unit": "0.020"
+ },
+ {
+   "Ingredient": "turkey breast fillet(s)",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 3.65,
+   "Cost Per Unit": "0.009"
+ },
+ {
+   "Ingredient": "ground cinnamon",
+   "Quantity": "38",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Spices",
+   "Cost": 1,
+   "Cost Per Unit": "0.026"
+ },
+ {
+   "Ingredient": "ground coriander seed",
+   "Quantity": "44",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Spices",
+   "Cost": 1,
+   "Cost Per Unit": "0.023"
+ },
+ {
+   "Ingredient": "ready rolled filo pastry",
+   "Quantity": "270",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1.65,
+   "Cost Per Unit": "0.006"
+ },
+ {
+   "Ingredient": "tinned tuna",
+   "Quantity": "160",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 1,
+   "Cost Per Unit": "0.006"
+ },
+ {
+   "Ingredient": "vegetarian Thai curry paste",
+   "Quantity": "190",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1.2,
+   "Cost Per Unit": "0.006"
+ },
+ {
+   "Ingredient": "tuna steak(s)",
+   "Quantity": "240",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 6.5,
+   "Cost Per Unit": "0.027"
+ },
+ {
+   "Ingredient": "mackerel fillet(s)",
+   "Quantity": "180",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 2.25,
+   "Cost Per Unit": "0.013"
+ },
+ {
+   "Ingredient": "kale",
+   "Quantity": "300",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1.05,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "fine green beans",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "paneer",
+   "Quantity": "225",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 1.5,
+   "Cost Per Unit": "0.007"
+ },
+ {
+   "Ingredient": "tinned haricot beans / navy beans",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Condiments",
+   "Cost": 0.55,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "plain tortilla chips",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Grains",
+   "Cost": 0.95,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "pork ribs¬†",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 5.5,
+   "Cost Per Unit": "0.011"
+ },
+ {
+   "Ingredient": "macaroni",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Grains",
+   "Cost": 0.89,
+   "Cost Per Unit": "0.002"
+ },
+ {
+   "Ingredient": "smoked bacon lardons",
+   "Quantity": "160",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 2.5,
+   "Cost Per Unit": "0.016"
+ },
+ {
+   "Ingredient": "baby button mushrooms",
+   "Quantity": "200",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 0.9,
+   "Cost Per Unit": "0.005"
+ },
+ {
+   "Ingredient": "tinned cannellini beans",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Tins + Jars",
+   "Cost": 0.55,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "pepperoni",
+   "Quantity": "100",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 1.5,
+   "Cost Per Unit": "0.015"
+ },
+ {
+   "Ingredient": "chestnuts",
+   "Quantity": "180",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Nuts",
+   "Cost": 2.4,
+   "Cost Per Unit": "0.013"
+ },
+ {
+   "Ingredient": "sesame seeds",
+   "Quantity": "100",
+   "Unit": "g",
+   "Excel Category": "staple",
+   "Type": "Nuts",
+   "Cost": 1,
+   "Cost Per Unit": "0.010"
+ },
+ {
+   "Ingredient": "tinned green lentils",
+   "Quantity": "390",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Tins + Jars",
+   "Cost": 0.55,
+   "Cost Per Unit": "0.001"
+ },
+ {
+   "Ingredient": "diced pancetta",
+   "Quantity": "140",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 1.65,
+   "Cost Per Unit": "0.012"
+ },
+ {
+   "Ingredient": "cooked beetroot",
+   "Quantity": "250",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Fruit + Veg",
+   "Cost": 1,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "creamy blue cheese",
+   "Quantity": "150",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 2.25,
+   "Cost Per Unit": "0.015"
+ },
+ {
+   "Ingredient": "Stilton cheese",
+   "Quantity": "150",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 2.75,
+   "Cost Per Unit": "0.018"
+ },
+ {
+   "Ingredient": "white chocolate chips",
+   "Quantity": "100",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 0.8,
+   "Cost Per Unit": "0.008"
+ },
+ {
+   "Ingredient": "diced braising beef",
+   "Quantity": "400",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 3,
+   "Cost Per Unit": "0.008"
+ },
+ {
+   "Ingredient": "Serrano ham",
+   "Quantity": "80",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 1.5,
+   "Cost Per Unit": "0.019"
+ },
+ {
+   "Ingredient": "lamb mince",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 4,
+   "Cost Per Unit": "0.008"
+ },
+ {
+   "Ingredient": "dark chocolate",
+   "Quantity": "100",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Dairy",
+   "Cost": 1,
+   "Cost Per Unit": "0.010"
+ },
+ {
+   "Ingredient": "turkey thigh mince",
+   "Quantity": "500",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 2,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "cooked chestnuts",
+   "Quantity": "180",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Nuts",
+   "Cost": 2.4,
+   "Cost Per Unit": "0.013"
+ },
+ {
+   "Ingredient": "cooked rice",
+   "Quantity": "250",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Grains",
+   "Cost": 1,
+   "Cost Per Unit": "0.004"
+ },
+ {
+   "Ingredient": "smoked salmon",
+   "Quantity": "120",
+   "Unit": "g",
+   "Excel Category": "fresh",
+   "Type": "Meat + Fish",
+   "Cost": 3.5,
+   "Cost Per Unit": "0.029"
+ }
+]
