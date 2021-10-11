@@ -1,0 +1,50 @@
+version: '3.4'
+
+volumes:
+  sorted_db:
+
+
+services:
+
+  db:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: sorted
+    hostname: sorted_db
+    volumes:
+      - sorted_db:/var/lib/mysql
+
+  test_db:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: sorted
+    hostname: sorted_test_db
+
+
+  adminer:
+    image: adminer
+    ports:
+      - 7081:8080
+
+  web:
+    build: .
+    image: sorted
+    command: python manage.py runserver 0.0.0.0:8000
+    container_name: sorted_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app/
+    environment:
+      - FLASK_APP=sorted
+      - FLASK_ENV=development
+
+
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "8025:8025"
