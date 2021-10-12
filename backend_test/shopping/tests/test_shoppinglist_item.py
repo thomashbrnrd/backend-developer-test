@@ -15,13 +15,14 @@ class TestShoppingListItem:
 
     def url(self, pk = None):
         if pk:
-            return reverse('shoppinglist-detail', args=[pk])
+            return reverse('shoppinglistitem-detail', args=[pk])
         else:
-            return reverse('shoppinglist-list')
+            return reverse('shoppinglistitem-list')
 
     # SUCCESS
     @pytest.mark.django_db
     def test_create(self, client, faker):
+        shoppinglist = ShoppingListFactory()
         data = {
             "name": faker.word(),
         }
