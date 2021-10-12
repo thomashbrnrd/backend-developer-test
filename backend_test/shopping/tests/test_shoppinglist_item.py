@@ -17,9 +17,9 @@ class TestShoppingListItem:
 
     def url(self, pk = None):
         if pk:
-            return reverse('shoppinglistitem-detail', args=[pk])
+            return reverse('ShoppingListItem-detail', args=[pk])
         else:
-            return reverse('shoppinglistitem-list')
+            return reverse('ShoppingListItem-list')
 
     # SUCCESS
     @pytest.mark.django_db

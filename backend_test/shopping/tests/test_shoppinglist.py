@@ -16,9 +16,9 @@ class TestShoppingList:
 
     def url(self, pk = None):
         if pk:
-            return reverse('shoppinglist-detail', args=[pk])
+            return reverse('ShoppingList-detail', args=[pk])
         else:
-            return reverse('shoppinglist-list')
+            return reverse('ShoppingList-list')
 
     # SUCCESS
     @pytest.mark.django_db
@@ -76,4 +76,4 @@ class TestShoppingList:
         client.force_authenticate(user=wrong_user)
         response = client.get(self.url(shoppinglist.id), format='json')
 
-        assert response.status_code == 403
+        assert response.status_code == 404

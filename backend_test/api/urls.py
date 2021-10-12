@@ -24,9 +24,9 @@ schema_view = get_schema_view(
 )
 
 router = routers.SimpleRouter()
-router.register(r'ingredients', IngredientViewSet)
-router.register(r'shoppinglists', ShoppingListViewSet)
-router.register(r'shoppinglistitems', ShoppingListItemViewSet)
+router.register(r'ingredients', IngredientViewSet, basename='Ingredient')
+router.register(r'shoppinglists', ShoppingListViewSet, basename='ShoppingList')
+router.register(r'shoppinglistitems', ShoppingListItemViewSet, basename='ShoppingListItem')
 
 urlpatterns = [
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),

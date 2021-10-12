@@ -16,9 +16,9 @@ class TestIngredients:
 
     def url(self, pk = None):
         if pk:
-            return reverse('ingredient-detail', args=[pk])
+            return reverse('Ingredient-detail', args=[pk])
         else:
-            return reverse('ingredient-list')
+            return reverse('Ingredient-list')
 
     # SUCCESS
     @pytest.mark.django_db
@@ -45,7 +45,7 @@ class TestIngredients:
             "is_available": False,
         }
         response = client.patch(self.url(ingredient.id), data, format='json')
-        
+
         assert response.status_code == 200
         assert response.json()["unit"] == data["unit"]
         assert response.json()["is_available"] == data["is_available"]
