@@ -11,12 +11,11 @@ class ShoppingListViewSet(mixins.CreateModelMixin,
                         mixins.RetrieveModelMixin,
                         viewsets.GenericViewSet):
 
-    queryset = ShoppingList.objects.all()
     serializer_class = ShoppingListSerializer
     permission_classes = [permissions.IsAuthenticated & IsOwner]
 
     def get_queryset(self):
-        return self.queryset.filter(user=self.request.user)
+        return self.request.user.shoppinglist_set.all()
 
 class ShoppingListItemViewSet(mixins.CreateModelMixin,
                         mixins.UpdateModelMixin,

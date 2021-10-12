@@ -62,6 +62,23 @@ class TestShoppingListItem:
         assert response.status_code == 401
 
     @pytest.mark.django_db
+    def test_create_wrong_user(self, client, faker):
+        ingredient = IngredientFactory()
+        shopping_list = ShoppingListFactory()
+        wrong_user = UserFactory()
+        client.force_authenticate(user=wrong_user)
+        print(shopping_list.user)
+        print(wrong_user)
+        data = {
+            "ingredient": ingredient.id,
+            "shopping_list": shopping_list.id,
+            "quantity": faker.pyint(),
+        }
+        response = client.post(self.url(), data, format='json')
+
+        assert response.status_code == 403
+
+    @pytest.mark.django_db
     def test_create_missing_field(self, client):
         user = UserFactory()
         client.force_authenticate(user=user)
@@ -70,3 +87,15 @@ class TestShoppingListItem:
         assert "ingredient" in response.json()
         assert "shopping_list" in response.json()
         assert "quantity" in response.json()
+
+    @pytest.mark.django_db
+    def test_update_wrong_user(self, client, faker):
+        shopping_list_item = ShoppingListItemFactory(quantity=faker.pyint())
+        wrong_user = UserFactory()
+        client.force_authenticate(user=wrong_user)
+        data = {
+            "quantity": faker.pyint(),
+        }
+        response = client.patch(self.url(shopping_list_item.id), data, format='json')
+        print(response.json())
+        assert response.status_code == 403
