@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "ingredient.apps.IngredientAppConfig",
     "shopping.apps.ShoppingAppConfig",
+    "drf_yasg"
 ]
 
 MIDDLEWARE = [

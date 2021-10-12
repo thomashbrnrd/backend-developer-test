@@ -20,19 +20,14 @@ class ShoppingList(models.Model):
 
     @property
     def total_cost(self):
-        total_cost = round(
-            self.items.filter(ingredient__is_available=True)
+        return (self.items.filter(ingredient__is_available=True)
                 .values("ingredient__cost_per_unit", "quantity")
                 .annotate(ingredient_cost=F("ingredient__cost_per_unit") * F("quantity"))
                 .aggregate(
                     total_cost=Sum(
                         "ingredient_cost",
                     )
-                )["total_cost"],
-                2
-            )
-        return total_cost
-
+                )["total_cost"])
 
 class ShoppingListItem(models.Model):
 
@@ -44,7 +39,7 @@ class ShoppingListItem(models.Model):
     )
 
     ingredient = models.ForeignKey(
-        Ingredient, verbose_name=_("Ingredient"), on_delete=models.SET_NULL, null=True
+        Ingredient, verbose_name=_("Ingredient"), on_delete=models.CASCADE
     )
 
     quantity = models.FloatField(_("Quantity"))

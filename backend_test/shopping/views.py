@@ -16,9 +16,7 @@ class ShoppingListViewSet(mixins.CreateModelMixin,
     permission_classes = [permissions.IsAuthenticated & IsOwner]
 
 class ShoppingListItemViewSet(mixins.CreateModelMixin,
-                        mixins.ListModelMixin,
                         mixins.UpdateModelMixin,
-                        mixins.RetrieveModelMixin,
                         viewsets.GenericViewSet):
 
     queryset = ShoppingListItem.objects.all()

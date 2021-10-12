@@ -11,7 +11,8 @@ class ShoppingListSerializer(serializers.ModelSerializer):
     user = serializers.HiddenField(
         default=serializers.CurrentUserDefault(),
     )
-    items = ShoppingListItemSerializer(many=True, read_only=True)
+    items = ShoppingListItemSerializer(read_only=True, many=True)
+    total_cost = serializers.DecimalField(read_only=True, max_digits=19, decimal_places=2)
 
     class Meta:
         model = ShoppingList
