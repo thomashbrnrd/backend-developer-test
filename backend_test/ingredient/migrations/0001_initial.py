@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
                 ('category', models.CharField(choices=[('fresh', 'fresh'), ('staple', 'staple')], max_length=64)),
                 ('unit', models.CharField(choices=[('g', 'g'), ('ml', 'ml'), ('tsp', 'tsp'), ('tbsp', 'tbsp')], max_length=64)),
                 ('cost_per_unit', models.FloatField(blank=True, null=True, verbose_name='Cost Per Unit')),
-                ('is_available', models.BooleanField()),
+                ('is_available', models.BooleanField(default=True)),
             ],
             options={
                 'ordering': ['name'],
