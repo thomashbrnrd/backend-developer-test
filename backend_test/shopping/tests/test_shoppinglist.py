@@ -40,6 +40,7 @@ class TestShoppingList:
 
         assert response.status_code == 200
         assert "items" in response.json()
+        assert "total_cost" in response.json()
 
     @pytest.mark.django_db
     def test_update(self, client, faker):
@@ -63,10 +64,10 @@ class TestShoppingList:
 
     @pytest.mark.django_db
     def test_create_missing_field(self, client):
-        data = {}
-        response = client.post(self.url(), data, format='json')
-
-        assert response.status_code == 401
+        user = UserFactory()
+        client.force_authenticate(user=user)
+        response = client.post(self.url(), {}, format='json')
+        assert response.status_code == 400
 
     @pytest.mark.django_db
     def test_retrieve_wrong_user(self, client, faker):
