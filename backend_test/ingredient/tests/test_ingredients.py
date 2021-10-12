@@ -40,13 +40,13 @@ class TestIngredients:
             "name": faker.word(),
             "category": faker.word(ext_word_list=list(zip(*choices.CATEGORIES))[0]),
             "unit": faker.word(ext_word_list=list(zip(*choices.UNITS))[0]),
+            "is_available": False,
         }
         response = client.patch(url, data, format='json')
-        print(response.json())
         assert response.status_code == 200
-        assert "name" in response.json()
-        assert "category" in response.json()
-        assert "unit" in response.json()
+        assert response.json()["unit"] == data["unit"]
+        assert response.json()["is_available"] == data["is_available"]
+        assert response.json()["category"] == data["category"]
 
 
     # ERRORS
