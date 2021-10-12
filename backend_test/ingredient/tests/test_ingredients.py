@@ -60,3 +60,12 @@ class TestIngredients:
         assert "name" in response.json()
         assert "category" in response.json()
         assert "unit" in response.json()
+
+    @pytest.mark.django_db
+    def test_delete_not_allowed(self, client):
+        ingredient = IngredientFactory(is_available=True)
+        url = reverse('ingredient-detail', args=[
+            ingredient.id
+        ])
+        response = client.delete(url, format='json')
+        assert response.status_code == 405
