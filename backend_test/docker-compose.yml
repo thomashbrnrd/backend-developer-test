@@ -9,15 +9,16 @@ services:
   db:
     image: mysql:8.0
     command: --default-authentication-plugin=mysql_native_password
+    restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: sorted
-    hostname: sorted_db
     volumes:
       - sorted_db:/var/lib/mysql
 
   adminer:
     image: adminer
+    restart: always
     ports:
       - 7081:8080
 
@@ -26,6 +27,7 @@ services:
     image: sorted
     command: python manage.py runserver 0.0.0.0:8000
     container_name: sorted_api
+    restart: always
     ports:
       - "8000:8000"
     volumes:
