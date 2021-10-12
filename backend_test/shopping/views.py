@@ -1,5 +1,4 @@
-from rest_framework import viewsets
-from rest_framework import mixins
+from rest_framework import viewsets, mixins, permissions
 
 from api.permissions import IsOwner
 
@@ -14,7 +13,7 @@ class ShoppingListViewSet(mixins.CreateModelMixin,
 
     queryset = ShoppingList.objects.all()
     serializer_class = ShoppingListSerializer
-    permission_classes = [IsOwner]
+    permission_classes = [permissions.IsAuthenticated & IsOwner]
 
 class ShoppingListItemViewSet(mixins.CreateModelMixin,
                         mixins.ListModelMixin,
@@ -24,4 +23,4 @@ class ShoppingListItemViewSet(mixins.CreateModelMixin,
 
     queryset = ShoppingListItem.objects.all()
     serializer_class = ShoppingListItemSerializer
-    permission_classes = [IsOwner]
+    permission_classes = [permissions.IsAuthenticated & IsOwner]

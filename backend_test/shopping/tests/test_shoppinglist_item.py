@@ -38,7 +38,7 @@ class TestShoppingListItem:
         data = {
             "title": faker.word(),
         }
-        response = client.patch(self.url(ingredient.id), data, format='json')
+        response = client.patch(self.url(shoppinglist.id), data, format='json')
         assert response.status_code == 201
         assert response.json()["unit"] == data["unit"]
         assert response.json()["is_available"] == data["is_available"]
@@ -53,7 +53,7 @@ class TestShoppingListItem:
         }
         response = client.post(self.url(), data, format='json')
         print(response.json())
-        assert response.status_code == 401
+        assert response.status_code == 403
         assert "name" in response.json()
         assert "category" in response.json()
         assert "unit" in response.json()
