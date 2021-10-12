@@ -5,9 +5,11 @@ from django.conf.urls import include
 from rest_framework import routers
 
 from ingredient.views import IngredientViewSet
+from shopping.views import ShoppingListViewSet
 
 router = routers.SimpleRouter()
 router.register(r'ingredients', IngredientViewSet)
+router.register(r'shoppinglists', ShoppingListViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
