@@ -80,7 +80,7 @@ WSGI_APPLICATION = "api.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "HOST": "sorted_db",
+        "HOST": "db",
         "NAME": "sorted",
         "USER": "root",
         "PASSWORD": "root",

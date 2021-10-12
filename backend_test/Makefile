@@ -14,6 +14,9 @@ bash:
 test:
 	docker exec -it $(CONTAINER_NAME) bash -c "pytest -v"
 
+migrate:
+	docker exec -it $(CONTAINER_NAME) bash -c "python manage.py migrate"
+
 lint:
 	black -v */*.py
 
