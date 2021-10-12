@@ -20,7 +20,6 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('title', models.CharField(max_length=250, verbose_name='Title')),
-                ('total_cost', models.PositiveIntegerField(help_text='Cost in pence, e.g. £4.53 -> 453', verbose_name='Cost')),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
             options={
