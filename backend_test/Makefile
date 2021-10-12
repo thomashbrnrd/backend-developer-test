@@ -18,4 +18,4 @@ lint:
 	black -v */*.py
 
 lint-check:
-	black -v --check *.py
+	black -v --check */*.py
