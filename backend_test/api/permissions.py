@@ -2,9 +2,11 @@ from rest_framework import permissions
 
 from shopping.models import ShoppingList
 
+
 class IsOwner(permissions.BasePermission):
     def has_object_permission(self, request, view, obj):
         return obj.user == request.user
+
 
 class IsShoppingListOwner(permissions.BasePermission):
     def has_permission(self, request, view):

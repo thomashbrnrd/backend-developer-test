@@ -30,12 +30,3 @@ services:
       - "8000:8000"
     volumes:
       - .:/app/
-    environment:
-      - FLASK_APP=sorted
-      - FLASK_ENV=development
-
-
-  mailhog:
-    image: mailhog/mailhog
-    ports:
-      - "8025:8025"

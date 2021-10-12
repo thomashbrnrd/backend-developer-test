@@ -15,7 +15,7 @@ test:
 	docker exec -it $(CONTAINER_NAME) bash -c "pytest -v"
 
 lint:
-	black -v *.py
+	black -v */*.py
 
 lint-check:
 	black -v --check *.py

@@ -3,6 +3,7 @@ from django.utils.translation import gettext_lazy as _
 
 from . import choices
 
+
 class Ingredient(models.Model):
     name = models.CharField(_("Ingredient"), max_length=250)
 

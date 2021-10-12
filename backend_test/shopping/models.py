@@ -20,14 +20,17 @@ class ShoppingList(models.Model):
 
     @property
     def total_cost(self):
-        return (self.items.filter(ingredient__is_available=True)
-                .values("ingredient__cost_per_unit", "quantity")
-                .annotate(ingredient_cost=F("ingredient__cost_per_unit") * F("quantity"))
-                .aggregate(
-                    total_cost=Sum(
-                        "ingredient_cost",
-                    )
-                )["total_cost"])
+        return (
+            self.items.filter(ingredient__is_available=True)
+            .values("ingredient__cost_per_unit", "quantity")
+            .annotate(ingredient_cost=F("ingredient__cost_per_unit") * F("quantity"))
+            .aggregate(
+                total_cost=Sum(
+                    "ingredient_cost",
+                )
+            )["total_cost"]
+        )
+
 
 class ShoppingListItem(models.Model):
 
