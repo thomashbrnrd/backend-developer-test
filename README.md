@@ -48,4 +48,4 @@ https://docs.docker.com/compose/cli-command/#install-on-linux
   - `make bash`
   - `python manage.py createsuperuser`
 - From my understanding of the subject, it was not 100% clear of how to handle the user for initials `ShoppingLists`(provided by the subject in the `data` directory). I took the decision to create one `User` per `ShoppingList`. These users are filled with fake data from the `Faker` library.
-- The API has some throttling : **60 request per minute**.
+- The API has some throttling : **60 requests per minute**.
