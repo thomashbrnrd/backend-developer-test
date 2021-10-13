@@ -1,45 +1,51 @@
 # Backend Developer Test
 
-At Sorted we work with a range of modern technology and tools, but most of our services are written in Python & Django. This test has been designed to give you an opportunity to show your knowledge of Django and API design. There is no 'right' answer - we're most interested in how you choose to solve the problem and why you chose to solve it in that way. There are no wrong answers, as long as your code successfully runs.
+### Subject
+Please find the original readme here : https://github.com/SORTEDfood/backend-developer-test
 
-Be sure to read **all** of this document carefully, and follow the guidelines within.
+### Requirements
+- `docker`
+- `docker compose`
 
-## Task Outline
-Everyone at Sorted is passionate about food - and we're creating tools to help foodies all around the world cook better, and smarter. We give people the tools and know-how, but the rest is up to them.
+### About docker compose
 
-We're helping people reduce food waste and better understand how much their weekly shop costs by generating smart shopping lists for them. We'd like you to create a **REST API** for creating, retrieving and updating ingredient and shopping list data. We'll give you the building blocks, but you'll have to fill in the blanks.
+We are using here the command `docker compose` which is a replacement for the `docker-compose` command.
 
-## Requirements
-To be successful in this task, you'll need to satisfy the following use cases:
+##### MacOs & Windows
 
-**Add ingredients to the database**
+Docker compose (v2) should come already packed up with docker
 
-An ingredient must have name, category (fresh, staple), unit (g, ml, tsp, tbsp) and cost per unit (£/unit)
+##### Linux
 
-**Update ingredients**
+https://docs.docker.com/compose/cli-command/#install-on-linux
 
-Following Brexit and increases in inflation, the cost of ingredients is changing rapidly. An ingredient must have the ability for its cost per unit to be updated based on the most up-to-date pricing information.
+### Useful commands
 
-**Flag ingredient as no longer available**
+##### Get in the right directory
+`cd backend_test`
 
-With the future supply of some ingredients looking uncertain, we may have to change the availability of certain ingredients. When this happens, we need to flag the ingredient as no longer available.
+##### Run the stack
+`make`
 
-A flagged ingredient cannot be included in new shopping lists, but already generated shopping lists aren't impacted.
+##### Run the migrations
+`make migrate` (the stack need to run)
 
-**Retrieve shopping lists**
+##### Run the tests
+`make test`  (the stack need to run)
 
-Shopping lists should only be retrievable by the user that created them/they belong to. The total cost of a shopping list should be calculated the first time it's retrieved, and subsequently if it's changed
+##### Bash into the main container
+`make bash` (the stack need to run)
 
-## Notes
-* Seed the ingredient & shopping list tables with the provided data. Add these as part of the initial migrations.
-* The shopping list API(s) will need user authentication. The ingredient API(s) should be publicly accessible.
-* Don't forget to add documentation comments to the API endpoints to explain how to use them
-* Add an indication of how you would approach testing across the layers of the API
-* Write concise and clear commit messages
-* How you might add caching backed with redis _(optional)_
-* Add rate limiting to the API at 60 req/min _(optional)_
+### Main routes
 
-## Q&A
-> How should I submit my test when I'm done?
+- http://localhost:8000/api/
+- http://localhost:8000/swagger/
+- http://localhost:8000/admin/
 
-Fork this repo and send a pull request when you think you are done.
+### Notes
+
+- If you want to use the Django Admin, you will need to create a superuser.
+  - `make bash`
+  - `python manage.py createsuperuser`
+- From my understanding of the subject, it was not 100% clear of how to handle the user for initials `ShoppingLists`(provided by the subject in the `data` directory). I took the decision to create one `User` per `ShoppingList`. These users are filled with fake data from the `Faker` library.
+- The API has some throttling : **60 request per minute**.
